@@ -18,7 +18,7 @@ export const Box = ({ name }) => {
         end: (item, monitor) => {
             const dropResult = monitor.getDropResult();
             if (item && dropResult) {
-                alert(`You dropped ${item.name} into ${dropResult.name}!`);
+                alert(`${dropResult.name}에 "${item.name}"을 넣었습니다.`);
             }
         },
         collect: (monitor) => ({

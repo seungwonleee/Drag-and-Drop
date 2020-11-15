@@ -1,5 +1,4 @@
 import React from 'react'
-
 import closeImage from './refrigerClose.png'
 
 function RefrigerClose() {

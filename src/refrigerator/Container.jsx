@@ -4,10 +4,10 @@ import { Box } from './Box';
 
 export const Container = memo(function Container() {
 
-    // Axios로 백엔드에서 데이터를 받아와서 material에 재료 저장
+    // 백엔드에서 데이터를 받아와서 material에 재료 저장
     const [material, setMaterial] = useState([]);
 
-    // Axios로 백엔드에서 데이터를 받아와서 material에 레시피 저장
+    // 백엔드에서 데이터를 받아와서 material에 레시피 저장
     const [recipe, setRecipe] = useState([]);
 
     return (

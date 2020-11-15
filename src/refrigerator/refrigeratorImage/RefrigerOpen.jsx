@@ -1,5 +1,4 @@
 import React from 'react'
-
 import openImage from './refrigerOpen.png'
 
 function RefrigerOpen() {
